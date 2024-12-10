@@ -44,3 +44,67 @@
     text-decoration-line: underline;
     font-size: 72px;
 }
+
+#mainAnalyticPic img {
+    width: 1200px;
+}
+
+#mainAnalyticPic {
+    margin-bottom: 64px;
+}
+
+#teamInboxes {
+    border-radius: 8px;
+    background: #FFF;
+    width: 417px;
+    padding: 16px;
+}
+#teamInboxes, #answersFrame{
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 24px;
+}
+#whiteFrames{
+    text-align: center;
+    height: 200px;
+    display: inline-block;
+    width: 1412px;
+}
+#teamInboxes img{
+    margin-botto: 20px;
+}
+#teamInboxes h3{
+    color: #181D27;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#teamInboxes{
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    width: 424px;
+}
+#answersFrame {
+    border-radius: 8px;
+    background: #FFF;
+    width: 417px;
+    padding: 16px;
+}
+#answersFrame img{
+    margin-botto: 20px;
+}
+#answersFrame h3{
+    color: #181D27;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#answersFrame{
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    width: 424px;
+}
