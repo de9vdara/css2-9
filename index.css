@@ -153,10 +153,68 @@
     text-align: center;
     font-size: 16px;
 }
-#purpleFrame{
+
+#purpleFrame {
     border-radius: var(--radius-4xl, 24px);
-background: #53389E;
+    background: #53389E;
+    max-width: 1089px;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 660px;
 }
-#womenPicture img{
+#womenPicture img {
     text-align: right;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    width: 481px;
+}
+
+#womenPicture {
+    max-width: 480px;
+    display: inline-block;
+    height: 400px;
+}
+
+#textAndButton {
+    display: inline-block;
+    width: 604px;
+    height: 400px;
+    vertical-align: top;
+    margin: auto;
+    padding: 84px;
+}
+
+#content h2 {
+    color: #FFF;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#content p {
+    color: #E9D7FE;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+#learn {
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+
+    background: #FFF;
+    padding: 12px 18px;
+    color: #414651;
+    font-size: 16px;
+}
+
+#starting {
+    border-radius: var(--radius-md, 8px);
+    border: 2px solid #FFF;
+
+    background: #7F56D9;
+    padding: 12px 18px;
+    margin-left: 6px;
+    color: #FFF;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+
 }
